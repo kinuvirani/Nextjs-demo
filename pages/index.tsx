@@ -47,11 +47,12 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Yet Another Link Shortner</title>
+        <title>Link Shortner</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header>
         <div className={styles.logo} />
+        <h2 className={styles.header}>Short Link</h2>
       </Header>
       <Content className={styles.content}>
         <div className={styles.shortner}>
@@ -84,7 +85,7 @@ export default function Home() {
         </div>
       </Content>
       <Footer className={styles.footer}>
-        Yet Another Link Shortener (YALS) &copy; 2021
+        Created by Kiran Virani &copy; 2021
       </Footer>
     </Layout>
   )
